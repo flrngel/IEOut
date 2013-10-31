@@ -1,0 +1,13 @@
+<script src="../build/IEOut.js"></script>
+<script src="//code.jquery.com/jquery-latest.js"></script>
+<span id="info"></span>
+<script>
+	$(document).ready(function(){
+		function s(){
+			IEOut.detect();
+			var id=document.getElementById("info");
+			id.innerHTML=IEOut.browser.name + " " + IEOut.browser.version;
+		}
+		s();
+	});
+</script>
