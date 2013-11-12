@@ -1,0 +1,22 @@
+{
+  "name": "IEOut",
+  "version": "0.0.0",
+  "homepage": "https://github.com/flrngel/IEOut",
+  "authors": [
+    "flrngel <flrngel@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "almond": "~0.2.6",
+    "jquery": "~2.0.3",
+    "qunit": "~1.12.0",
+    "requirejs": "~2.1.9"
+  }
+}
