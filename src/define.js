@@ -2,6 +2,11 @@
 define([],function(){
 	var IEOut=function(){
 		// User's browser information.
-		this.browser={}
-	}
+	};
+
+	IEOut.fn = IEOut.prototype={
+		browser:{}
+	};
+
+	return IEOut;
 });
