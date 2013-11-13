@@ -12,9 +12,12 @@ define(['util/version'],function(version){
 				equal(version.compare("23.1.1","1.0.1"),-1);
 				equal(version.compare("1.0.131","1.0.23"),-1);
 
+				/*
+				 * issue for semantic versioning
 				equal(version.compare("1.0.0-rc1","1.0.0-rc23"),1);
 				equal(version.compare("1.0.0-rc133","1.0.0-rc23"),-1);
 				equal(version.compare("1.0.0-alpha","1.0.0-beta"),-1);
+			 */
 			});
 		}
 	}
