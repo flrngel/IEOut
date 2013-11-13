@@ -1,7 +1,7 @@
 // IEOut.detect.js
 // Code from jQuery.browser
 define(['define'],function(IEOut){
-	IEOut.fn.detect=function(){
+	var detect=IEOut.fn.detect=function(){
 		var ua=window.navigator.userAgent.toLowerCase();
 		var match = /(chrome)[ \/]([\w.]+)/.exec( ua ) ||
 			/(webkit)[ \/]([\w.]+)/.exec( ua ) ||
@@ -25,5 +25,5 @@ define(['define'],function(IEOut){
 
 		return this.browser;
 	};
-	return IEOut;
+	return detect;
 });

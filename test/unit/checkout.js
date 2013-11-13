@@ -1,4 +1,4 @@
-define(['checkout'],function(IEOut){
+define(['define','checkout'],function(IEOut){
 	return {
 		run: function(){
 			var ieout=new IEOut();

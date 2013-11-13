@@ -1,6 +1,6 @@
 // IEOut.checkout.js
-define(['detect'],function(IEOut){
-	IEOut.fn.checkout=function(){
+define(['define','detect'],function(IEOut){
+	var checkout=IEOut.fn.checkout=function(){
 		this.detect();
 		if( this.browser.name == "MSIE" ){
 			alert("this is IE");
@@ -10,5 +10,5 @@ define(['detect'],function(IEOut){
 			return true;
 		}
 	};
-	return IEOut;
+	return checkout;
 });
